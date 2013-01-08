@@ -1,0 +1,33 @@
+# Exercise and Weight Selection Skeleton #				
+- General Progression Through Workout					
+	-  big to small muscles		
+		- heavy to light weight		
+		- lower to higher reps		
+	- Exercise Selection		
+		- 2-4 lower body exercises/workout		
+			- 1-2 lower body HIP dominant exercises		
+				- 1-leg stand and reach/RDL 		
+				- Suitcase Deadlift		
+				- Glute bridge variations		
+			
+		- 1-2 lower body Quad dominant exercises		
+			- Goblet Squat		
+			- Split Squat		
+			- Step-up		
+			- Walking Lunge		
+		- 4-6 upper body exercises/workout		
+			- 2-3 upper body PUSH exercises		
+				- 1-2 horizontal PUSH exercises		
+					- Pushup on bar		
+					- Machine Press		
+				- 1-2 vertical PUSH exercises 		
+					- DB Incline Press		
+					- Machine Incline Press		
+			- 2-3 upper body PULL exercises		
+				- 1-2 horizontal PULL exercises		
+					- Seated Cable Row		
+					- DB Row		
+				- 1-2 vertical PULL exercises		
+					- Lat Pull Down		
+					- Close Grip Lat Pull down		
+

@@ -2,15 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Template &middot; Ken Paris Workout</title>
+    <title>Template &middot; Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link rel='stylesheet' type='text/css' href='css/bootstrap.css'>
-    <link rel='stylesheet' type='text/css' href='css/ken-paris.css'>
-       <style type="text/css">
+    <!-- @stylesheet bootstrap -->
+    <!-- @stylesheet ken-paris -->
+
+    <style type="text/css">
       body {
         padding-top: 20px;
         padding-bottom: 60px;
@@ -79,8 +80,8 @@
         border-radius: 0 3px 3px 0;
       }
     </style>
+    <!-- @stylesheet bootstrap-responsive -->
 
-<link rel='stylesheet' type='text/css' href='css/bootstrap-responsive.css'>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -104,11 +105,14 @@
           <div class="navbar-inner">
             <div class="container">
               <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="pages/guidelines.html">Guidelines</a></li>
+                <li><a href="<!-- @path index.html -->">Home</a></li>
+                <li class="active"><a href="#">Guidelines</a></li>
                 <li><a href="#">Workouts</a></li>
                 <li><a href="#">Downloads</a></li>
-           
+                <!--
+<li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+-->
               </ul>
             </div>
           </div>
@@ -120,31 +124,60 @@
         <h1>Ken Paris Workouts and Guidlines</h1>
         </br> 
 <!--         <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p> -->
-        <a class="btn btn-large btn-success" href="https://docs.google.com/spreadsheet/ccc?key=0Al7woqs5eRGadGFfOVA2U04tczk5cjljNThHeXNJM0E" target="_Blank">Go Straight To Workout</a>
+         <a class="btn btn-large btn-success" href="https://docs.google.com/spreadsheet/ccc?key=0Al7woqs5eRGadGFfOVA2U04tczk5cjljNThHeXNJM0E" target="_Blank">Go Straight To Workout</a>
+
       </div>
 
       <hr>
 
       <!-- Example row of columns -->
-      <!--
 <div class="row-fluid">
         <div class="span4">
-          <h2>Workout Skeleton</h2>
+          <h2>Workout Guideline Mind Map View</h2>
           <p>This is a visual reference on how to layout your workout</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <p><a class="btn" href="<!-- @path ken-paris-exercise-weight-selection-map.png -->">View details &raquo;</a></p>
         </div>
+
         <div class="span4">
-          <h2>Heading</h2>
+          <h2>Workout Guideline List View</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <p><a class="btn" href="<!-- @path ken-paris-workout-list-view.jpg -->">View details &raquo;</a></p>
        </div>
+
         <div class="span4">
+          <h2>Workout Breakdown</h2>
+          <p>The big picture view of the workout</p>
+          <p><a class="btn" href="<!-- @path ken-paris-workout-design-example.pdf -->" >View details &raquo;</a></p>
+        </div>
+       <!--
+ <div class="span4">
           <h2>Heading</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
-      </div>
 -->
+      </div>
+      
+<div class="row-fluid">
+	<li class="span4">      
+		<a class="thumbnail" href="<!-- @path ken-paris-exercise-weight-selection-map.png -->" >
+            <img src="<!-- @path ken-paris-exercise-weight-selection-map.png -->" alt="Workout MindMap">
+        </a>   
+	</li>
+  <li class="span4">
+		<a class="thumbnail" href="<!-- @path ken-paris-workout-list-view.jpg -->" >
+            <img src="<!-- @path ken-paris-workout-list-view-preview.png -->" alt="Workout List View">
+    </a>   
+  </li>      
+  
+ <li class="span4">
+    <a class="thumbnail" href="<!-- @path ken-paris-workout-design-example.pdf -->" >
+            <img src="<!-- @path ken-paris-workou-design-example-preview.png -->" alt="Workout List View">
+    </a>   
+  </li>      
+
+  </div>
+
 
       <hr>
 

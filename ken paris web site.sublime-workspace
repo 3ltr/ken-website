@@ -1,0 +1,226 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5386,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>Template &middot; Bootstrap</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"\">\n\n    <!-- Le styles -->\n    <!-- @stylesheet bootstrap -->\n    <!-- @stylesheet ken-paris -->\n\n    <style type=\"text/css\">\n      body {\n        padding-top: 20px;\n        padding-bottom: 60px;\n      }\n\n      /* Custom container */\n      .container {\n        margin: 0 auto;\n        max-width: 1000px;\n      }\n      .container > hr {\n        margin: 60px 0;\n      }\n\n      /* Main marketing message and sign up button */\n      .jumbotron {\n        margin: 80px 0;\n        text-align: center;\n      }\n      .jumbotron h1 {\n        font-size: 50px;\n        line-height: 1;\n      }\n      .jumbotron .lead {\n        font-size: 24px;\n        line-height: 1.25;\n      }\n      .jumbotron .btn {\n        font-size: 21px;\n        padding: 14px 24px;\n      }\n\n      /* Supporting marketing content */\n      .marketing {\n        margin: 60px 0;\n      }\n      .marketing p + h4 {\n        margin-top: 28px;\n      }\n\n\n      /* Customize the navbar links to be fill the entire space of the .navbar */\n      .navbar .navbar-inner {\n        padding: 0;\n      }\n      .navbar .nav {\n        margin: 0;\n      }\n      .navbar .nav li {\n        display: table-cell;\n        width: 1%;\n        float: none;\n      }\n      .navbar .nav li a {\n        font-weight: bold;\n        text-align: center;\n        border-left: 1px solid rgba(255,255,255,.75);\n        border-right: 1px solid rgba(0,0,0,.1);\n      }\n      .navbar .nav li:first-child a {\n        border-left: 0;\n        border-radius: 3px 0 0 3px;\n      }\n      .navbar .nav li:last-child a {\n        border-right: 0;\n        border-radius: 0 3px 3px 0;\n      }\n    </style>\n    <!-- @stylesheet bootstrap-responsive -->\n\n    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->\n    <!--[if lt IE 9]>\n      <script src=\"http://html5shim.googlecode.com/svn/trunk/html5.js\"></script>\n    <![endif]-->\n\n    <!-- Fav and touch icons -->\n    <link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\" href=\"../assets/ico/apple-touch-icon-144-precomposed.png\">\n    <link rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" href=\"../assets/ico/apple-touch-icon-114-precomposed.png\">\n      <link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"../assets/ico/apple-touch-icon-72-precomposed.png\">\n                    <link rel=\"apple-touch-icon-precomposed\" href=\"../assets/ico/apple-touch-icon-57-precomposed.png\">\n                                   <link rel=\"shortcut icon\" href=\"../assets/ico/favicon.png\">\n  </head>\n\n  <body>\n\n    <div class=\"container\">\n\n      <div class=\"masthead\">\n        <h3 class=\"muted\">Ken Paris Workout Info</h3>\n        <div class=\"navbar\">\n          <div class=\"navbar-inner\">\n            <div class=\"container\">\n              <ul class=\"nav\">\n                <li><a href=\"index.html\">Home</a></li>\n                <li class=\"active\"><a href=\"#\">Guidelines</a></li>\n                <li><a href=\"#\">Workouts</a></li>\n                <li><a href=\"#\">Downloads</a></li>\n                <!--\n<li><a href=\"#\">About</a></li>\n                <li><a href=\"#\">Contact</a></li>\n-->\n              </ul>\n            </div>\n          </div>\n        </div><!-- /.navbar -->\n      </div>\n\n      <!-- Jumbotron -->\n      <div class=\"jumbotron\">\n        <h1>Ken Paris Workouts and Guidlines</h1>\n        </br> \n<!--         <p class=\"lead\">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p> -->\n         <a class=\"btn btn-large btn-success\" href=\"https://docs.google.com/spreadsheet/ccc?key=0Al7woqs5eRGadGFfOVA2U04tczk5cjljNThHeXNJM0E\" target=\"_Blank\">Go Straight To Workout</a>\n\n      </div>\n\n      <hr>\n\n      <!-- Example row of columns -->\n<div class=\"row-fluid\">\n        <div class=\"span4\">\n          <h2>Workout Guideline Mind Map View</h2>\n          <p>This is a visual reference on how to layout your workout</p>\n          <p><a class=\"btn\" href=\"#\">View details &raquo;</a></p>\n        </div>\n\n        <div class=\"span4\">\n          <h2>Workout Guideline List View</h2>\n          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>\n          <p><a class=\"btn\" href=\"#\">View details &raquo;</a></p>\n       </div>\n\n        <div class=\"span4\">\n          <h2>Workout Breakdown</h2>\n          <p>The big picture view of the workout</p>\n          <p><a class=\"btn\" href=\"#\">View details &raquo;</a></p>\n        </div>\n       <!--\n <div class=\"span4\">\n          <h2>Heading</h2>\n          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>\n          <p><a class=\"btn\" href=\"#\">View details &raquo;</a></p>\n        </div>\n-->\n      </div>\n      \n<div class=\"row-fluid\">\n	<li class=\"span4\">      \n		<a class=\"thumbnail\" href=\"<!-- @path ken-paris-exercise-weight-selection-map.png -->\" target=\"_blank\">\n            <img src=\"<!-- @path ken-paris-exercise-weight-selection-map.png -->\" alt=\"Workout MindMap\">\n        </a>   \n	</li>\n  <li class=\"span4\">\n		<a class=\"thumbnail\" href=\"<!-- @path ken-paris-workout-list-view.jpg -->\" target=\"_blank\">\n            <img src=\"<!-- @path ken-paris-workout-list-view-preview.png -->\" alt=\"Workout List View\">\n    </a>   \n  </li>      \n  \n <li class=\"span4\">\n    <a class=\"thumbnail\" href=\"<!-- @path ken-paris-workout-design-example.pdf -->\" target=\"_blank\">\n            <img src=\"<!-- @path ken-paris-workou-design-example-preview.png -->\" alt=\"Workout List View\">\n    </a>   \n  </li>      \n\n  </div>\n\n\n      <hr>\n\n      <div class=\"footer\">\n        <p>Hook 'Em</p>\n      </div>\n\n    </div> <!-- /container -->\n\n    <!-- Le javascript\n    ================================================== -->\n    <!-- Placed at the end of the document so the pages load faster -->\n    <!-- @javascript js/*\n\n  </body>\n</html>\n",
+			"file": "guidelines.html",
+			"file_size": 6363,
+			"file_write_time": 1357263385000000,
+			"settings":
+			{
+				"buffer_size": 6363,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/hammer/Dropbox/Active Projects/ken-website/docs/ken-paris-exercise-weight-selection-list.html",
+		"/Users/hammer/Dropbox/Active Projects/ken-website/Build/guidelines.html",
+		"/Users/hammer/Dropbox/Active Projects/ken-website/guidelines.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"li",
+			"span6"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 5386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 910.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "guidelines.html",
+					"settings":
+					{
+						"buffer_size": 6363,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										3989,
+										3989
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								3989,
+								3989
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1451.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 327.0,
+	"status_bar_visible": true
+}

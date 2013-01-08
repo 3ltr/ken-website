@@ -10,21 +10,25 @@
     <!-- Le styles -->
     <!-- @stylesheet bootstrap -->
     <!-- @stylesheet ken-paris -->
+    <!-- @stylesheet docs -->
+    <!-- @stylesheet prettify -->
+    <!-- js/google-code-prettify/prettify.css" -->
+
        <style type="text/css">
       body {
         padding-top: 20px;
         padding-bottom: 60px;
       }
 
-      /* Custom container */
+     /*  Custom container 
       .container {
         margin: 0 auto;
         max-width: 1000px;
-      }
-      .container > hr {
+     */ }
+     /* /*.container > hr {*/
         margin: 60px 0;
       }
-
+*/
       /* Main marketing message and sign up button */
       .jumbotron {
         margin: 80px 0;
@@ -79,8 +83,8 @@
         border-radius: 0 3px 3px 0;
       }
     </style>
+   <!-- @stylesheet bootstrap-responsive.css -->
 
-<!-- @stylesheet bootstrap-responsive -->
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -94,7 +98,8 @@
                                    <link rel="shortcut icon" href="../assets/ico/favicon.png">
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+
 
     <div class="container">
 
@@ -108,7 +113,10 @@
                 <li><a href="<!-- @path guidelines.html -->">Guidelines</a></li>
                 <li><a href="#">Workouts</a></li>
                 <li><a href="#">Downloads</a></li>
-           
+                <!--
+<li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+-->
               </ul>
             </div>
           </div>
@@ -125,6 +133,82 @@
 
       <hr>
 
+
+
+ <div class="container">
+
+    <!-- Sidebar Nav
+    ================================================== -->
+    <div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav">
+          <li><a href="#lower-body-exercises"><i class="icon-chevron-right"></i> Lower Body Exercises</a></li>
+          <li><a href="#file-structure"><i class="icon-chevron-right"></i> File structure</a></li>
+          <li><a href="#contents"><i class="icon-chevron-right"></i> What's included</a></li>
+          <li><a href="#html-template"><i class="icon-chevron-right"></i> HTML template</a></li>
+          <li><a href="#examples"><i class="icon-chevron-right"></i> Examples</a></li>
+          <li><a href="#what-next"><i class="icon-chevron-right"></i> What next?</a></li>
+        </ul>
+      </div>
+
+      <div class="span9">
+
+        <!-- Lower Body Exercises
+        ================================================== -->
+        <section id="lower-body-exercises">
+          <div class="page-header">
+            <h1>Lower Body Exercises</h1>
+          </div>
+          <ul>
+            <li>Lower Body Exercises Can Be Subdivided Into Two Main Categories
+
+              <ol>
+              <li>Hip Dominant Exercises
+
+              <ul>
+              <li>Focuses On “Hinging”/Flexion At The Hips And/Or Flexion Of The Knee</li>
+              <li>Strengthen The Hamstrings And Gluteus Muscles.
+
+            <ul>
+            <li>Primary Muscles: Glutes, Hamstrings, Hip Extension Muscles, Posterior Lower Body</li>
+            <li>Secondary Musles: Quadriceps</li>
+            </ul></li>
+            <li>Examples:
+
+            <ul>
+            <li>Rdl, 1-Leg Rdl, Suitecase Deadlift, Stability Ball Hamstring Curl, Etc&#8230;</li>
+            </ul></li>
+            </ul></li>
+            <li>Quad/Knee Dominant Exercises
+
+            <ul>
+            <li>Focuses On Extension Of The Knee(S)</li>
+            <li>Strengthens The Quadriceps, Hip Flexors
+
+            <ul>
+            <li>Primary Muscles: Quadriceps, Hip Flexors, Anterior Lower Body</li>
+            <li>Secondary Muscles: Glutes, Hamstrings</li>
+            </ul></li>
+            <li>Examples:
+
+            <ul>
+            <li>Squats, Step-Ups, Lunges, Split Squats, Leg Extenstion Machines, Etc&#8230;</li>
+            </ul></li>
+            </ul></li>
+            </ol></li>
+            </ul>
+          <!-- <div class="row-fluid">
+            <div class="span6">
+              <h2>Download compiled</h2>
+              <p><strong>Fastest way to get started:</strong> get the compiled and minified versions of our CSS, JS, and images. No docs or original source files.</p>
+              <p><a class="btn btn-large btn-primary" href="assets/bootstrap.zip" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">Download Bootstrap</a></p>
+            </div>
+            <div class="span6">
+              <h2>Download source</h2>
+              <p>Get the original files for all CSS and JavaScript, along with a local copy of the docs by downloading the latest version directly from GitHub.</p>
+              <p><a class="btn btn-large" href="https://github.com/twitter/bootstrap/zipball/master" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download source']);">Download Bootstrap source</a></p>
+            </div> -->
+        </section>
       <!-- Example row of columns -->
       <!--
 <div class="row-fluid">
@@ -145,6 +229,9 @@
         </div>
       </div>
 -->
+  </div> <!-- /span9 -->
+ </div> <!-- /row -->
+</div> <!-- /container --> 
 
       <hr>
 
@@ -152,12 +239,31 @@
         <p>Hook 'Em</p>
       </div>
 
-    </div> <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <!-- @javascript js/*
+    
+    <!-- @javascript js/* -->
+        <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap-popover.js"></script>
+    <script src="../js/bootstrap-button.js"></script>
+    <script src="../js/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap-typeahead.js"></script>
+    <script src="../js/bootstrap-affix.js"></script>
+
+    <script src="../js/holder/holder.js"></script>
+    <script src="../js/google-code-prettify/prettify.js"></script>
+
+    <script src="../js/application.js"></script>
 
   </body>
 </html>
